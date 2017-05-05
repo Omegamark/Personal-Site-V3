@@ -20,6 +20,10 @@ div, body{
   font-family: exo, sans-serif;
 }
 
+.proRes {
+  color: blue;
+}
+
 .wrapper {
   height: 100%;
   width: 100%;
@@ -39,7 +43,16 @@ div, body{
   padding: 0.5em;
 }
 
+.contact {
+  display: flex;
+  padding-top: .5em;
+  padding-left: .5em;
+  padding-right: .5em;
+  /*justify-content: space-between;*/
+  justify-content: flex-end;
 
+
+}
 
 
 

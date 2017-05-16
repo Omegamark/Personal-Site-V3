@@ -8,40 +8,63 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
     <script type="text/javascript" src="projects.js"></script>  </head>
-  <body>
+  <body class="container">
+    <!-- Header bar, may need to add some links -->
+    <header>
+      <nav>
+        <div class="nav-wrapper blue-grey lighten-4">
+          <a class="brand-logo center">My Current Projects (Excluding this site)</a>
+          <div class="right-align">
+            <a href="index.html" class="waves-effect waves-light btn blue-grey lighten-3">Home</a>
+          </div>
+        </div>
+
+        <!-- Add a return to home button -->
+
+      </nav>
+    </header>
     <!-- Insert multiple Images with a space in between -->
     <div class="bgimg-1">
       <div class="caption">
-        <h1 class="border">SCROLL DOWN</h1>
+        <!-- <h1 class="border">Backlog Roulette</h1> -->
       </div>
     </div>
     <!-- These div's are where the description text will go. -->
     <div class="projectText">
-      <h2>Shnibidy</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h2>Backlog Roulette</h2>
+      <p>
+        Backlog Roulette is a simple web app meant for gamers with ridiculous backlogs of unplayed games, quickly becoming a big problem given the sheer volume of games being released nowadays.  Rather than succumbing to choice fatigue from a looking at a massive backlog, thereby falling into the trap of just playing the same game over and over, Backlog Roulette takes the decision making process out by making the decision for you. All you do is type in the name of a game you have enjoyed in the past and the roulette wheel spins through 5 random games which are similar, ultimately landing on the one you will play next.
+        It uses the extensive Giantbomb API to generate a list of 5 games, complete with box art and quick descriptions, each time you spin the wheel. You may then click on the title selected for you or one of the other 5 to see a much deeper description on the Giantbomb website, though for it to really work effectively, just play the game it tells you to play.
+      </p>
     </div>
 
     <!-- These bg-img classed divs are where the project pictures will go. -->
     <div class="bgimg-2">
       <div class="caption">
-        <span class="border">Doodie</span>
+        <!-- <span class="border">write over the picture here</span> -->
       </div>
     </div>
 
     <div class="projectText">
-      <h3>Boobies</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h2>WikiTeadia</h2>
+      <p>
+        WikiTeadia is a native mobile app for android and iOS made in Angular using the Ionic framework. It is meant to be a companion app for traditional Chinese teas. Traditional Chinese teas can have hundreds of years of history which has led to a long standing and rich culture surrounding this ancient beverage. The name WikiTeadia (patent pending) stems from the fact that there is simply too much information surrounding these teas for one person to collect it all. The app is intended to be a single source of truth for connoisseurs and enthusiasts of Chinese teas. Users will be able to find and update information about the various teas themselves, creating a living document with robust information about each tea. Users can easily see the mountains from which the teas come on an embedded map, get information about the production, history, legends, and much more.
+        I created the API for this app to capture every aspect I could think of which would be of interest to tea lovers. The API is the crux of the app and will be continually updated using user feedback so as to become as robust as humanly possible ideally generating exhaustive information surrounding each tea written in the English language.
+        In the near future, after the app has been released on the Play and App Stores, I intend to rewrite the frontend in React Native since it offers more options for customization and uses data more efficiently.
+      </p>
     </div>
 
     <div class="bgimg-3">
       <div class="caption">
-        <p>dibbidy</p>
+        <!-- <p>write over the picture here</p> -->
       </div>
     </div>
 
     <div class="projectText">
-      <h3>This is the 3rd project</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h2>Project 330sx</h2>
+      <p>
+        330sx has nothing to do with web design. It is my attempt to create a car which performs the same as a top end sports car. My friend Jason has been working with cars for over 20 years and my car was a great platform for him to exercise his creativity. I am doing much of the work as well, but it is truly a partnership. The name 330sx is a play on the naming convention used by Nissan when the car, a 240sx, originally came out. The numbers represent the engine size, we have swapped out the original 2.4L I4 for a 3.3L V6. We have made extreme body modifications to increase aerodynamics, cool the now bigger brakes, hold the front mount intercooler for the T4 turbo, along with many other additions, nothing has been added frivolously, it all serves a function. There isn’t a single bolt on the car which hasn’t been touched. It was stripped down to the bear metal and rebuilt from scratch.
+      </p>
     </div>
 
   </body>

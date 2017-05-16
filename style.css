@@ -20,6 +20,10 @@ div, body{
   font-family: exo, sans-serif;
 }
 
+.welcome {
+  margin-left: .25em;
+}
+
 .proRes {
   color: blue;
 }

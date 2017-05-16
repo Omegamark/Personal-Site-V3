@@ -1,48 +1,81 @@
-@-webkit-keyframes typing { from { width: 0; } }
-@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+/*Makes background image proper and responsive*/
+html, body{
+  height: 100%;
+}
+
+body {
+			background-image: url("imgs/DSC01760_edited.jpg");
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+
+}
+
+
+div, body{
+  margin: 0;
+  padding: 0;
+  font-family: exo, sans-serif;
+}
+
+.welcome {
+  margin-left: .25em;
+}
+
+.proRes {
+  color: blue;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.message {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height:45%;
+  bottom: 0;
+  display: block;
+  position: absolute;
+  background-color: rgba(0,0,0,0.15);
+  color: #fff;
+  padding: 0.5em;
+}
+
+.contact {
+  display: flex;
+  padding-top: .5em;
+  padding-left: .5em;
+  padding-right: .5em;
+  /*justify-content: space-between;*/
+  justify-content: flex-end;
+
+
+}
+
+
 
 /*Size the background image for the page*/
-.homeBackground {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.homeBackground  {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
 }
 
-/*This is typing out the header*/
-.typedHeader {
-	/*font: bold 2em monospace;*/
-  color: black;
-	border-right: .1em solid black;
-	width: calc(.51em * 18);
-	/*width: 17ch;*/
-	white-space: nowrap;
-	overflow: hidden;
-	-webkit-animation: typing 3s steps(18, end),
-	           blink-caret .5s step-end infinite alternate;
-}
-
-/*This is for the Projects, Resume, and About Me buttons*/
-.optionButtons:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
-}
-
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
-
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
+.homeBackground img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
 }

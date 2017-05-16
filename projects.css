@@ -1,18 +1,64 @@
 /*This is meant to parallax the body*/
 body, html {
     height: 100%;
+    /*padding: 1em;*/
 }
 
-.parallax {
-    /* The image used */
-    background-image: url("img_parallax.jpg");
-
-    /* Full height */
-    height: 100%;
-
-    /* Create the parallax scrolling effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 70%;
 }
+
+h2 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+div {
+    display: block;
+}
+
+p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.projectText {
+  margin: 0;
+  padding: 0;
+  box-shadow: inset 0 0 .8em .3em #cccccc;
+
+}
+
+    .caption {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+    }
+
+    .bgimg-1 {
+      background-image: url("imgs/Screenshot 2017-05-10 10.29.06.png");
+      min-height: 100%;
+    }
+
+    .bgimg-2 {
+      background-image: url("imgs/WikiTeadiaViews.jpg");
+      min-height: 100%;
+    }
+
+    .bgimg-3 {
+      background-image: url("imgs/Project 330sx.jpg");
+      min-height: 100%;
+    }
+
+    p {
+      color: #777;
+    }

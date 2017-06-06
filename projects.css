@@ -1,7 +1,6 @@
 /*This is meant to parallax the body*/
 body, html, main {
     height: 100%;
-
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -14,6 +13,7 @@ body, html, main {
 }
 
 h2 {
+  text-shadow: .05em .05em #cccccc;
   font-family: 'El Messiri', sans-serif;
   padding-top: .5em;
   margin: 0;
@@ -40,26 +40,26 @@ p {
 
 }
 
-    .caption {
-        position: absolute;
-        left: 0;
-        top: 50%;
-        width: 100%;
-        text-align: center;
-        color: #000;
-    }
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
 
-    .bgimg-1 {
-      background-image: url("imgs/Screenshot 2017-05-10 10.29.06.png");
-      min-height: 100%;
-    }
+.bgimg-1 {
+  background-image: url("imgs/Screenshot 2017-05-10 10.29.06.png");
+  min-height: 100%;
+}
 
-    .bgimg-2 {
-      background-image: url("imgs/WikiTeadiaViews.jpg");
-      min-height: 100%;
-    }
+.bgimg-2 {
+  background-image: url("imgs/WikiTeadiaViews.jpg");
+  min-height: 100%;
+}
 
-    .bgimg-3 {
-      background-image: url("imgs/Project 330sx.jpg");
-      min-height: 100%;
-    }
+.bgimg-3 {
+  background-image: url("imgs/Project 330sx.jpg");
+  min-height: 100%;
+}

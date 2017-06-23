@@ -63,7 +63,10 @@ div, body{
 
 }
 
-
+.update {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: .4em;
+}
 
 /*Size the background image for the page*/
 .homeBackground  {
